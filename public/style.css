@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background: #1b4332;
+    margin-bottom: 64px;
+}
+
+.title {
+    padding: 0 24px;
+    font-size: 4rem;
+    color: #081c15;
+    text-align: center;
+}
+
+nav {
+    height: 200px;
+    background-color: #1b4332;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.query {
+    width: 800px;
+}
+
+.query-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.query-form input {
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    width: 75%;
+    height: 60px;
+    background-color: #95d5b2;
+    transition: background-color 0.3s ease-in-out;
+    padding-left: 5%;
+    border-radius: 10px;
+}
+
+.query-form input:focus {
+    background-color: rgba(149, 213, 178, 0.9);
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.query-form button {
+    padding: 0 4px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #081c15;
+    width: 20%;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(149, 213, 178);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.query-form button:hover {
+    box-shadow: 4px 4px 4px #081c15;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 64px;
+    width: 800px;
+    background: #95d5b2;
+    padding: 32px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .city {
+    color: #081c15;
+    font-size: 2.5rem;
+}
+
+.info .temperature {
+    margin-top: 24px;
+    color: #081c15;
+    font-size: 4rem;
+    border-bottom: 2px #333 solid;
+}
+
+.weather-condition {
+    margin-top: 24px;
+    font-size: 1.5rem;
+}
+
+.today {
+    letter-spacing: 0.2rem;
+    margin-top: 24px;
+    color: #081c15;
+    font-size: 1.5rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 860px) {
+    .info {
+        width: 600px;
+    }
+
+    .query {
+        width: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .info {
+        width: 450px;
+    }
+
+    .query {
+        width: 450px;
+    }
+
+    .query-form input {
+        font-size: 1.1rem;
+    }
+
+    .query-form button {
+        width: 22%;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 530px) {
+    .title {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 475px) {
+    .query {
+        width: 350px;
+    }
+
+    .info {
+        width: 350px;
+    }
+
+    .query-form input {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .query-form button {
+        width: 25%;
+        font-size: 1rem;
+    }
+}
