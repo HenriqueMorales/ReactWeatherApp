@@ -2,6 +2,12 @@
 
 Um projeto simples para consultar as condições climáticas de qualquer cidade, feito utilizando React JS e a [OpenWeather API](https://openweathermap.org/).
 
+![screenshot1](https://user-images.githubusercontent.com/62220657/124230261-20f19000-dae5-11eb-8157-f3e9025308e3.png)
+
+![screenshot2](https://user-images.githubusercontent.com/62220657/124230342-3a92d780-dae5-11eb-8f53-d55eb99cccab.png)
+
+![screenshot3](https://user-images.githubusercontent.com/62220657/124230375-48e0f380-dae5-11eb-83f6-0ec484b783de.png)
+
 ## Tecnologias Usadas
 
 * React JS
