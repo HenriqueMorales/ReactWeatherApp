@@ -14,7 +14,7 @@ Um projeto simples para consultar as condições climáticas de qualquer cidade,
 * JavaScript
 * HTML
 * CSS
-* [OpenWeather API](https://openweathermap.org/)
+* [OpenWeather API](https://openweathermap.org/api)
 
 Para rodar o projeto localmente, basta clonar o projeto, configurar a chave da api e dentro da pasta do projeto, abrir o terminal e digitar os comandos:
 
