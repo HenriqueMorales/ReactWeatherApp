@@ -1,6 +1,6 @@
 # React Weather App
 
-Um projeto simples para consultar as condições climáticas de qualquer cidade, feito utilizando React JS e a [OpenWeather API](https://openweathermap.org/).
+Um projeto simples para consultar as condições climáticas de qualquer cidade, feito utilizando React JS e a [OpenWeather API](https://openweathermap.org/api).
 
 ![screenshot1](https://user-images.githubusercontent.com/62220657/124230261-20f19000-dae5-11eb-8157-f3e9025308e3.png)
 
