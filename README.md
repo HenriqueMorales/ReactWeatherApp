@@ -1,5 +1,7 @@
 # React Weather App
 
+Você pode acessar o site aqui: https://react-weather-app777.netlify.app/
+
 Um projeto simples para consultar as condições climáticas de qualquer cidade, feito utilizando React JS e a [OpenWeather API](https://openweathermap.org/api).
 
 ![screenshot1](https://user-images.githubusercontent.com/62220657/124230261-20f19000-dae5-11eb-8157-f3e9025308e3.png)
